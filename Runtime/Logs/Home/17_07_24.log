@@ -1,0 +1,571 @@
+[ 2017-07-24T15:40:29+08:00 ] 127.0.0.1 /blog/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.031200s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: SQLSTATE[HY000] [1045] Accès refusé pour l'utilisateur: 'root'@'@localhost' (mot de passe: OUI)
+NOTIC: [2] include(): Filename cannot be empty D:\wamp\www\blog\ThinkPHP\Library\Think\Think.class.php 第 314 行.
+NOTIC: [2] include(): Failed opening '' for inclusion (include_path='.;C:\php\pear') D:\wamp\www\blog\ThinkPHP\Library\Think\Think.class.php 第 314 行.
+
+[ 2017-07-24T15:40:38+08:00 ] 127.0.0.1 /blog/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: SQLSTATE[HY000] [1045] Accès refusé pour l'utilisateur: 'root'@'@localhost' (mot de passe: OUI)
+NOTIC: [2] include(): Filename cannot be empty D:\wamp\www\blog\ThinkPHP\Library\Think\Think.class.php 第 314 行.
+NOTIC: [2] include(): Failed opening '' for inclusion (include_path='.;C:\php\pear') D:\wamp\www\blog\ThinkPHP\Library\Think\Think.class.php 第 314 行.
+
+[ 2017-07-24T15:40:42+08:00 ] 127.0.0.1 /blog/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002500s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002500s ]
+ERR: SQLSTATE[HY000] [1045] Accès refusé pour l'utilisateur: 'root'@'@localhost' (mot de passe: OUI)
+NOTIC: [2] include(): Filename cannot be empty D:\wamp\www\blog\ThinkPHP\Library\Think\Think.class.php 第 314 行.
+NOTIC: [2] include(): Failed opening '' for inclusion (include_path='.;C:\php\pear') D:\wamp\www\blog\ThinkPHP\Library\Think\Think.class.php 第 314 行.
+
+[ 2017-07-24T15:41:32+08:00 ] 127.0.0.1 /blog/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.015600s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: SQLSTATE[HY000] [1045] Accès refusé pour l'utilisateur: 'root'@'@localhost' (mot de passe: OUI)
+NOTIC: [2] include(): Filename cannot be empty D:\wamp\www\blog\ThinkPHP\Library\Think\Think.class.php 第 314 行.
+NOTIC: [2] include(): Failed opening '' for inclusion (include_path='.;C:\php\pear') D:\wamp\www\blog\ThinkPHP\Library\Think\Think.class.php 第 314 行.
+
+[ 2017-07-24T15:43:24+08:00 ] 127.0.0.1 /blog/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `lt_article` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `lt_link` [ RunTime:0.0156s ]
+SQL: SHOW COLUMNS FROM `lt_system` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `lt_album` [ RunTime:0.0156s ]
+SQL: SHOW COLUMNS FROM `lt_gust` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `lt_say` [ RunTime:0.0156s ]
+SQL: SHOW COLUMNS FROM `lt_tag` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `lt_version` [ RunTime:0.0156s ]
+SQL: SHOW COLUMNS FROM `lt_picture` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `lt_album_c` [ RunTime:0.0156s ]
+SQL: SHOW COLUMNS FROM `lt_article_c` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `lt_say_c` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `lt_tag` WHERE `t_view` = 1  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `lt_system` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `v_version` FROM `lt_version` ORDER BY v_id desc LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [2] unlink(./Runtime/Temp/2af72f100c356273d46284f6fd1dfc08.php): No such file or directory D:\wamp\www\blog\ThinkPHP\Library\Think\Cache\Driver\File.class.php 第 157 行.
+SQL: SELECT `a_id` FROM `lt_article` WHERE `a_view` = 2  [ RunTime:0.0000s ]
+NOTIC: [2] array_rand(): Second argument has to be between 1 and the number of elements in the array D:\wamp\www\blog\Application\Home\Controller\CommonController.class.php 第 38 行.
+NOTIC: [8] Undefined index:  D:\wamp\www\blog\Application\Home\Controller\CommonController.class.php 第 40 行.
+SQL: SELECT * FROM `lt_article` WHERE `a_id` = null LIMIT 1   [ RunTime:0.0156s ]
+NOTIC: [8] Undefined index:  D:\wamp\www\blog\Application\Home\Controller\CommonController.class.php 第 40 行.
+SQL: SELECT * FROM `lt_article` WHERE `a_id` = null LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index:  D:\wamp\www\blog\Application\Home\Controller\CommonController.class.php 第 40 行.
+SQL: SELECT * FROM `lt_article` WHERE `a_id` = null LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index:  D:\wamp\www\blog\Application\Home\Controller\CommonController.class.php 第 40 行.
+SQL: SELECT * FROM `lt_article` WHERE `a_id` = null LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index:  D:\wamp\www\blog\Application\Home\Controller\CommonController.class.php 第 40 行.
+SQL: SELECT * FROM `lt_article` WHERE `a_id` = null LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `lt_say_c` WHERE ( sc_rtime != 0 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `lt_article_c` WHERE ( ac_rtime != 0 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `lt_album_c` WHERE ( alc_rtime != 0 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `lt_say` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `lt_article` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `lt_gust` WHERE ( g_rtime != 0 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `lt_album` WHERE `al_view` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `lt_picture` WHERE `p_view` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `lt_link` WHERE ( l_view != 0 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `lt_system` SET `hit`=hit+1 WHERE ( id=1 ) [ RunTime:0.0312s ]
+SQL: SELECT * FROM `lt_album` WHERE `al_view` = 1 LIMIT 9   [ RunTime:0.0000s ]
+SQL: SELECT `a_keyword`,`a_id`,`a_time` FROM `lt_article` WHERE ( a_keyword != '' and a_view > 0 ) ORDER BY a_time desc  [ RunTime:0.0156s ]
+SQL: SELECT `a_id` FROM `lt_article` WHERE ( a_view != 0 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `lt_article` WHERE `a_id` = 2 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `lt_article` WHERE `a_id` = 3 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `lt_article` WHERE `a_id` = 4 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `lt_link` WHERE `l_view` = 2 ORDER BY l_sort  [ RunTime:0.0000s ]
+NOTIC: [2] unlink(./Runtime/Temp/0ca63e0dd7b504e905514bcac2924aaf.php): No such file or directory D:\wamp\www\blog\ThinkPHP\Library\Think\Cache\Driver\File.class.php 第 157 行.
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\wamp\www\blog\Application\Home\Controller\CommonController.class.php 第 84 行.
+SQL: SHOW COLUMNS FROM `lt_article_c` [ RunTime:0.0156s ]
+SQL: SELECT `ac_time` FROM `lt_article_c` WHERE ( ac_rtime>0 ) UNION ALL SELECT sc_time FROM lt_say_c WHERE sc_rtime != 0 UNION ALL SELECT alc_time FROM lt_album_c WHERE alc_rtime >0 order by ac_time desc limit 0,5 [ RunTime:0.0000s ]
+SQL: SELECT * FROM `lt_article_c` WHERE `ac_time` = 1486283901 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `lt_album_c` WHERE `alc_time` = 1486283901 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `lt_say_c` WHERE `sc_time` = 1486283901 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `lt_article_c` WHERE `ac_time` = 1486283651 LIMIT 1   [ RunTime:0.0156s ]
+SQL: SELECT * FROM `lt_album_c` WHERE `alc_time` = 1486283651 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `lt_say_c` WHERE `sc_time` = 1486283651 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `lt_article_c` WHERE `ac_time` = 1486283315 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `lt_album_c` WHERE `alc_time` = 1486283315 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `lt_say_c` WHERE `sc_time` = 1486283315 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined offset: 3 D:\wamp\www\blog\Application\Home\Controller\CommonController.class.php 第 87 行.
+SQL: SELECT * FROM `lt_article_c` WHERE `ac_time` = null LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined offset: 3 D:\wamp\www\blog\Application\Home\Controller\CommonController.class.php 第 88 行.
+SQL: SELECT * FROM `lt_album_c` WHERE `alc_time` = null LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined offset: 3 D:\wamp\www\blog\Application\Home\Controller\CommonController.class.php 第 89 行.
+SQL: SELECT * FROM `lt_say_c` WHERE `sc_time` = null LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined offset: 4 D:\wamp\www\blog\Application\Home\Controller\CommonController.class.php 第 87 行.
+SQL: SELECT * FROM `lt_article_c` WHERE `ac_time` = null LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined offset: 4 D:\wamp\www\blog\Application\Home\Controller\CommonController.class.php 第 88 行.
+SQL: SELECT * FROM `lt_album_c` WHERE `alc_time` = null LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined offset: 4 D:\wamp\www\blog\Application\Home\Controller\CommonController.class.php 第 89 行.
+SQL: SELECT * FROM `lt_say_c` WHERE `sc_time` = null LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `lt_gust` WHERE ( g_rtime>0 ) ORDER BY g_time desc LIMIT 5   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `lt_article` WHERE ( a_view != 0 ) ORDER BY a_hit desc LIMIT 7   [ RunTime:0.0000s ]
+SQL: SELECT `a_time` FROM `lt_article` ORDER BY a_time desc LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `s_time` FROM `lt_say` ORDER BY s_time desc LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `al_time` FROM `lt_album` ORDER BY al_time desc LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `lt_article` [ RunTime:0.0000s ]
+SQL: SELECT a.*,ac.* FROM lt_article a left join lt_tag ON lt_tag.t_id = a.pid left join (select ac_pid,ac_id,ac_rtime,count(*) as ac_num FROM lt_article_c where ac_rtime != 0  GROUP BY ac_pid ) ac ON ac_pid = a.a_id  WHERE ( a_view > 0 ) ORDER BY a_time desc LIMIT 0,8   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `lt_ppt` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `lt_ppt` WHERE `pp_view` = 1 ORDER BY pp_time desc LIMIT 3   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.031200s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.031200s ]
+NOTIC: [8] Undefined variable: about D:\wamp\www\blog\Runtime\Cache\Home\ad9a30830f14c1d4afdd11cb2839d351.php 第 52 行.
+NOTIC: [8] Undefined variable: class D:\wamp\www\blog\Runtime\Cache\Home\ad9a30830f14c1d4afdd11cb2839d351.php 第 53 行.
+NOTIC: [8] Undefined variable: feel D:\wamp\www\blog\Runtime\Cache\Home\ad9a30830f14c1d4afdd11cb2839d351.php 第 60 行.
+NOTIC: [8] Undefined variable: album D:\wamp\www\blog\Runtime\Cache\Home\ad9a30830f14c1d4afdd11cb2839d351.php 第 61 行.
+NOTIC: [8] Undefined variable: friends D:\wamp\www\blog\Runtime\Cache\Home\ad9a30830f14c1d4afdd11cb2839d351.php 第 62 行.
+NOTIC: [8] Undefined variable: gust D:\wamp\www\blog\Runtime\Cache\Home\ad9a30830f14c1d4afdd11cb2839d351.php 第 63 行.
+NOTIC: [8] Undefined variable: download D:\wamp\www\blog\Runtime\Cache\Home\ad9a30830f14c1d4afdd11cb2839d351.php 第 64 行.
+NOTIC: [8] Undefined variable: tmp D:\wamp\www\blog\Application\Common\Common\function.php 第 307 行.
+NOTIC: [8] Undefined variable: tmp D:\wamp\www\blog\Application\Common\Common\function.php 第 307 行.
+NOTIC: [8] Undefined variable: tmp D:\wamp\www\blog\Application\Common\Common\function.php 第 307 行.
+NOTIC: [8] Undefined variable: tmp D:\wamp\www\blog\Application\Common\Common\function.php 第 307 行.
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\wamp\www\blog\Runtime\Cache\Home\ad9a30830f14c1d4afdd11cb2839d351.php 第 188 行.
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\wamp\www\blog\Runtime\Cache\Home\ad9a30830f14c1d4afdd11cb2839d351.php 第 178 行.
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\wamp\www\blog\Runtime\Cache\Home\ad9a30830f14c1d4afdd11cb2839d351.php 第 198 行.
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\wamp\www\blog\Runtime\Cache\Home\ad9a30830f14c1d4afdd11cb2839d351.php 第 212 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.124800s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.124800s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-07-24T15:43:33+08:00 ] 127.0.0.1 /blog/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002500s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002500s ]
+SQL: SHOW COLUMNS FROM `lt_article` [ RunTime:0.0075s ]
+SQL: SHOW COLUMNS FROM `lt_link` [ RunTime:0.0075s ]
+SQL: SHOW COLUMNS FROM `lt_system` [ RunTime:0.0075s ]
+SQL: SHOW COLUMNS FROM `lt_album` [ RunTime:0.0075s ]
+SQL: SHOW COLUMNS FROM `lt_gust` [ RunTime:0.0075s ]
+SQL: SHOW COLUMNS FROM `lt_say` [ RunTime:0.0075s ]
+SQL: SHOW COLUMNS FROM `lt_tag` [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `lt_version` [ RunTime:0.0075s ]
+SQL: SHOW COLUMNS FROM `lt_picture` [ RunTime:0.0075s ]
+SQL: SHOW COLUMNS FROM `lt_album_c` [ RunTime:0.0075s ]
+SQL: SHOW COLUMNS FROM `lt_article_c` [ RunTime:0.0075s ]
+SQL: SHOW COLUMNS FROM `lt_say_c` [ RunTime:0.0075s ]
+SQL: SELECT `v_version` FROM `lt_version` ORDER BY v_id desc LIMIT 1   [ RunTime:0.0025s ]
+NOTIC: [2] unlink(./Runtime/Temp/2af72f100c356273d46284f6fd1dfc08.php): No such file or directory D:\wamp\www\blog\ThinkPHP\Library\Think\Cache\Driver\File.class.php 第 157 行.
+SQL: UPDATE `lt_system` SET `hit`=hit+1 WHERE ( id=1 ) [ RunTime:0.0250s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\wamp\www\blog\Application\Home\Controller\CommonController.class.php 第 84 行.
+SQL: SHOW COLUMNS FROM `lt_article_c` [ RunTime:0.0200s ]
+SQL: SELECT `ac_time` FROM `lt_article_c` WHERE ( ac_rtime>0 ) UNION ALL SELECT sc_time FROM lt_say_c WHERE sc_rtime != 0 UNION ALL SELECT alc_time FROM lt_album_c WHERE alc_rtime >0 order by ac_time desc limit 0,5 [ RunTime:0.0025s ]
+SQL: SELECT * FROM `lt_article_c` WHERE `ac_time` = 1486283901 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `lt_album_c` WHERE `alc_time` = 1486283901 LIMIT 1   [ RunTime:0.0025s ]
+SQL: SELECT * FROM `lt_say_c` WHERE `sc_time` = 1486283901 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `lt_article_c` WHERE `ac_time` = 1486283651 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `lt_album_c` WHERE `alc_time` = 1486283651 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `lt_say_c` WHERE `sc_time` = 1486283651 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `lt_article_c` WHERE `ac_time` = 1486283315 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `lt_album_c` WHERE `alc_time` = 1486283315 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `lt_say_c` WHERE `sc_time` = 1486283315 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined offset: 3 D:\wamp\www\blog\Application\Home\Controller\CommonController.class.php 第 87 行.
+SQL: SELECT * FROM `lt_article_c` WHERE `ac_time` = null LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined offset: 3 D:\wamp\www\blog\Application\Home\Controller\CommonController.class.php 第 88 行.
+SQL: SELECT * FROM `lt_album_c` WHERE `alc_time` = null LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined offset: 3 D:\wamp\www\blog\Application\Home\Controller\CommonController.class.php 第 89 行.
+SQL: SELECT * FROM `lt_say_c` WHERE `sc_time` = null LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined offset: 4 D:\wamp\www\blog\Application\Home\Controller\CommonController.class.php 第 87 行.
+SQL: SELECT * FROM `lt_article_c` WHERE `ac_time` = null LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined offset: 4 D:\wamp\www\blog\Application\Home\Controller\CommonController.class.php 第 88 行.
+SQL: SELECT * FROM `lt_album_c` WHERE `alc_time` = null LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined offset: 4 D:\wamp\www\blog\Application\Home\Controller\CommonController.class.php 第 89 行.
+SQL: SELECT * FROM `lt_say_c` WHERE `sc_time` = null LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: about D:\wamp\www\blog\Runtime\Cache\Home\ad9a30830f14c1d4afdd11cb2839d351.php 第 52 行.
+NOTIC: [8] Undefined variable: class D:\wamp\www\blog\Runtime\Cache\Home\ad9a30830f14c1d4afdd11cb2839d351.php 第 53 行.
+NOTIC: [8] Undefined variable: feel D:\wamp\www\blog\Runtime\Cache\Home\ad9a30830f14c1d4afdd11cb2839d351.php 第 60 行.
+NOTIC: [8] Undefined variable: album D:\wamp\www\blog\Runtime\Cache\Home\ad9a30830f14c1d4afdd11cb2839d351.php 第 61 行.
+NOTIC: [8] Undefined variable: friends D:\wamp\www\blog\Runtime\Cache\Home\ad9a30830f14c1d4afdd11cb2839d351.php 第 62 行.
+NOTIC: [8] Undefined variable: gust D:\wamp\www\blog\Runtime\Cache\Home\ad9a30830f14c1d4afdd11cb2839d351.php 第 63 行.
+NOTIC: [8] Undefined variable: download D:\wamp\www\blog\Runtime\Cache\Home\ad9a30830f14c1d4afdd11cb2839d351.php 第 64 行.
+NOTIC: [8] Undefined variable: tmp D:\wamp\www\blog\Application\Common\Common\function.php 第 307 行.
+NOTIC: [8] Undefined variable: tmp D:\wamp\www\blog\Application\Common\Common\function.php 第 307 行.
+NOTIC: [8] Undefined variable: tmp D:\wamp\www\blog\Application\Common\Common\function.php 第 307 行.
+NOTIC: [8] Undefined variable: tmp D:\wamp\www\blog\Application\Common\Common\function.php 第 307 行.
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\wamp\www\blog\Runtime\Cache\Home\ad9a30830f14c1d4afdd11cb2839d351.php 第 188 行.
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\wamp\www\blog\Runtime\Cache\Home\ad9a30830f14c1d4afdd11cb2839d351.php 第 178 行.
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\wamp\www\blog\Runtime\Cache\Home\ad9a30830f14c1d4afdd11cb2839d351.php 第 198 行.
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\wamp\www\blog\Runtime\Cache\Home\ad9a30830f14c1d4afdd11cb2839d351.php 第 212 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.065001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.065001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002500s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002500s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-07-24T15:43:34+08:00 ] 127.0.0.1 /blog/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `lt_article` [ RunTime:0.0070s ]
+SQL: SHOW COLUMNS FROM `lt_link` [ RunTime:0.0080s ]
+SQL: SHOW COLUMNS FROM `lt_system` [ RunTime:0.0070s ]
+SQL: SHOW COLUMNS FROM `lt_album` [ RunTime:0.0070s ]
+SQL: SHOW COLUMNS FROM `lt_gust` [ RunTime:0.0070s ]
+SQL: SHOW COLUMNS FROM `lt_say` [ RunTime:0.0070s ]
+SQL: SHOW COLUMNS FROM `lt_tag` [ RunTime:0.0070s ]
+SQL: SHOW COLUMNS FROM `lt_version` [ RunTime:0.0070s ]
+SQL: SHOW COLUMNS FROM `lt_picture` [ RunTime:0.0070s ]
+SQL: SHOW COLUMNS FROM `lt_album_c` [ RunTime:0.0070s ]
+SQL: SHOW COLUMNS FROM `lt_article_c` [ RunTime:0.0070s ]
+SQL: SHOW COLUMNS FROM `lt_say_c` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `lt_tag` WHERE `t_view` = 1  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `lt_system` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `v_version` FROM `lt_version` ORDER BY v_id desc LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [2] unlink(./Runtime/Temp/2af72f100c356273d46284f6fd1dfc08.php): No such file or directory D:\wamp\www\blog\ThinkPHP\Library\Think\Cache\Driver\File.class.php 第 157 行.
+SQL: SELECT `a_id` FROM `lt_article` WHERE `a_view` = 2  [ RunTime:0.0000s ]
+NOTIC: [2] array_rand(): Second argument has to be between 1 and the number of elements in the array D:\wamp\www\blog\Application\Home\Controller\CommonController.class.php 第 38 行.
+NOTIC: [8] Undefined index:  D:\wamp\www\blog\Application\Home\Controller\CommonController.class.php 第 40 行.
+SQL: SELECT * FROM `lt_article` WHERE `a_id` = null LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index:  D:\wamp\www\blog\Application\Home\Controller\CommonController.class.php 第 40 行.
+SQL: SELECT * FROM `lt_article` WHERE `a_id` = null LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index:  D:\wamp\www\blog\Application\Home\Controller\CommonController.class.php 第 40 行.
+SQL: SELECT * FROM `lt_article` WHERE `a_id` = null LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index:  D:\wamp\www\blog\Application\Home\Controller\CommonController.class.php 第 40 行.
+SQL: SELECT * FROM `lt_article` WHERE `a_id` = null LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index:  D:\wamp\www\blog\Application\Home\Controller\CommonController.class.php 第 40 行.
+SQL: SELECT * FROM `lt_article` WHERE `a_id` = null LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `lt_say_c` WHERE ( sc_rtime != 0 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `lt_article_c` WHERE ( ac_rtime != 0 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `lt_album_c` WHERE ( alc_rtime != 0 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `lt_say` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `lt_article` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `lt_gust` WHERE ( g_rtime != 0 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `lt_album` WHERE `al_view` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `lt_picture` WHERE `p_view` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `lt_link` WHERE ( l_view != 0 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `lt_system` SET `hit`=hit+1 WHERE ( id=1 ) [ RunTime:0.0290s ]
+SQL: SELECT * FROM `lt_album` WHERE `al_view` = 1 LIMIT 9   [ RunTime:0.0000s ]
+SQL: SELECT `a_keyword`,`a_id`,`a_time` FROM `lt_article` WHERE ( a_keyword != '' and a_view > 0 ) ORDER BY a_time desc  [ RunTime:0.0000s ]
+SQL: SELECT `a_id` FROM `lt_article` WHERE ( a_view != 0 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `lt_article` WHERE `a_id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `lt_article` WHERE `a_id` = 3 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `lt_article` WHERE `a_id` = 4 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `lt_link` WHERE `l_view` = 2 ORDER BY l_sort  [ RunTime:0.0000s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\wamp\www\blog\Application\Home\Controller\CommonController.class.php 第 84 行.
+SQL: SHOW COLUMNS FROM `lt_article_c` [ RunTime:0.0070s ]
+SQL: SELECT `ac_time` FROM `lt_article_c` WHERE ( ac_rtime>0 ) UNION ALL SELECT sc_time FROM lt_say_c WHERE sc_rtime != 0 UNION ALL SELECT alc_time FROM lt_album_c WHERE alc_rtime >0 order by ac_time desc limit 0,5 [ RunTime:0.0000s ]
+SQL: SELECT * FROM `lt_article_c` WHERE `ac_time` = 1486283901 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `lt_album_c` WHERE `alc_time` = 1486283901 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `lt_say_c` WHERE `sc_time` = 1486283901 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `lt_article_c` WHERE `ac_time` = 1486283651 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `lt_album_c` WHERE `alc_time` = 1486283651 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `lt_say_c` WHERE `sc_time` = 1486283651 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `lt_article_c` WHERE `ac_time` = 1486283315 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `lt_album_c` WHERE `alc_time` = 1486283315 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `lt_say_c` WHERE `sc_time` = 1486283315 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined offset: 3 D:\wamp\www\blog\Application\Home\Controller\CommonController.class.php 第 87 行.
+SQL: SELECT * FROM `lt_article_c` WHERE `ac_time` = null LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined offset: 3 D:\wamp\www\blog\Application\Home\Controller\CommonController.class.php 第 88 行.
+SQL: SELECT * FROM `lt_album_c` WHERE `alc_time` = null LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined offset: 3 D:\wamp\www\blog\Application\Home\Controller\CommonController.class.php 第 89 行.
+SQL: SELECT * FROM `lt_say_c` WHERE `sc_time` = null LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined offset: 4 D:\wamp\www\blog\Application\Home\Controller\CommonController.class.php 第 87 行.
+SQL: SELECT * FROM `lt_article_c` WHERE `ac_time` = null LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined offset: 4 D:\wamp\www\blog\Application\Home\Controller\CommonController.class.php 第 88 行.
+SQL: SELECT * FROM `lt_album_c` WHERE `alc_time` = null LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined offset: 4 D:\wamp\www\blog\Application\Home\Controller\CommonController.class.php 第 89 行.
+SQL: SELECT * FROM `lt_say_c` WHERE `sc_time` = null LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `lt_gust` WHERE ( g_rtime>0 ) ORDER BY g_time desc LIMIT 5   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `lt_article` WHERE ( a_view != 0 ) ORDER BY a_hit desc LIMIT 7   [ RunTime:0.0000s ]
+SQL: SELECT `a_time` FROM `lt_article` ORDER BY a_time desc LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `s_time` FROM `lt_say` ORDER BY s_time desc LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `al_time` FROM `lt_album` ORDER BY al_time desc LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `lt_article` [ RunTime:0.0060s ]
+SQL: SELECT a.*,ac.* FROM lt_article a left join lt_tag ON lt_tag.t_id = a.pid left join (select ac_pid,ac_id,ac_rtime,count(*) as ac_num FROM lt_article_c where ac_rtime != 0  GROUP BY ac_pid ) ac ON ac_pid = a.a_id  WHERE ( a_view > 0 ) ORDER BY a_time desc LIMIT 0,8   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `lt_ppt` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `lt_ppt` WHERE `pp_view` = 1 ORDER BY pp_time desc LIMIT 3   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: about D:\wamp\www\blog\Runtime\Cache\Home\ad9a30830f14c1d4afdd11cb2839d351.php 第 52 行.
+NOTIC: [8] Undefined variable: class D:\wamp\www\blog\Runtime\Cache\Home\ad9a30830f14c1d4afdd11cb2839d351.php 第 53 行.
+NOTIC: [8] Undefined variable: feel D:\wamp\www\blog\Runtime\Cache\Home\ad9a30830f14c1d4afdd11cb2839d351.php 第 60 行.
+NOTIC: [8] Undefined variable: album D:\wamp\www\blog\Runtime\Cache\Home\ad9a30830f14c1d4afdd11cb2839d351.php 第 61 行.
+NOTIC: [8] Undefined variable: friends D:\wamp\www\blog\Runtime\Cache\Home\ad9a30830f14c1d4afdd11cb2839d351.php 第 62 行.
+NOTIC: [8] Undefined variable: gust D:\wamp\www\blog\Runtime\Cache\Home\ad9a30830f14c1d4afdd11cb2839d351.php 第 63 行.
+NOTIC: [8] Undefined variable: download D:\wamp\www\blog\Runtime\Cache\Home\ad9a30830f14c1d4afdd11cb2839d351.php 第 64 行.
+NOTIC: [8] Undefined variable: tmp D:\wamp\www\blog\Application\Common\Common\function.php 第 307 行.
+NOTIC: [8] Undefined variable: tmp D:\wamp\www\blog\Application\Common\Common\function.php 第 307 行.
+NOTIC: [8] Undefined variable: tmp D:\wamp\www\blog\Application\Common\Common\function.php 第 307 行.
+NOTIC: [8] Undefined variable: tmp D:\wamp\www\blog\Application\Common\Common\function.php 第 307 行.
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\wamp\www\blog\Runtime\Cache\Home\ad9a30830f14c1d4afdd11cb2839d351.php 第 188 行.
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\wamp\www\blog\Runtime\Cache\Home\ad9a30830f14c1d4afdd11cb2839d351.php 第 178 行.
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\wamp\www\blog\Runtime\Cache\Home\ad9a30830f14c1d4afdd11cb2839d351.php 第 198 行.
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\wamp\www\blog\Runtime\Cache\Home\ad9a30830f14c1d4afdd11cb2839d351.php 第 212 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.062003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.062003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-07-24T15:44:55+08:00 ] 127.0.0.1 /blog/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `lt_article` [ RunTime:0.0156s ]
+SQL: SHOW COLUMNS FROM `lt_link` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `lt_system` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `lt_album` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `lt_gust` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `lt_say` [ RunTime:0.0156s ]
+SQL: SHOW COLUMNS FROM `lt_tag` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `lt_version` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `lt_picture` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `lt_album_c` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `lt_article_c` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `lt_say_c` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `lt_tag` WHERE `t_view` = 1  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `lt_system` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `v_version` FROM `lt_version` ORDER BY v_id desc LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [2] unlink(./Runtime/Temp/2af72f100c356273d46284f6fd1dfc08.php): No such file or directory D:\wamp\www\blog\ThinkPHP\Library\Think\Cache\Driver\File.class.php 第 157 行.
+SQL: SELECT `a_id` FROM `lt_article` WHERE `a_view` = 2  [ RunTime:0.0000s ]
+NOTIC: [2] array_rand(): Second argument has to be between 1 and the number of elements in the array D:\wamp\www\blog\Application\Home\Controller\CommonController.class.php 第 38 行.
+NOTIC: [8] Undefined index:  D:\wamp\www\blog\Application\Home\Controller\CommonController.class.php 第 40 行.
+SQL: SELECT * FROM `lt_article` WHERE `a_id` = null LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index:  D:\wamp\www\blog\Application\Home\Controller\CommonController.class.php 第 40 行.
+SQL: SELECT * FROM `lt_article` WHERE `a_id` = null LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index:  D:\wamp\www\blog\Application\Home\Controller\CommonController.class.php 第 40 行.
+SQL: SELECT * FROM `lt_article` WHERE `a_id` = null LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index:  D:\wamp\www\blog\Application\Home\Controller\CommonController.class.php 第 40 行.
+SQL: SELECT * FROM `lt_article` WHERE `a_id` = null LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index:  D:\wamp\www\blog\Application\Home\Controller\CommonController.class.php 第 40 行.
+SQL: SELECT * FROM `lt_article` WHERE `a_id` = null LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `lt_say_c` WHERE ( sc_rtime != 0 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `lt_article_c` WHERE ( ac_rtime != 0 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `lt_album_c` WHERE ( alc_rtime != 0 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `lt_say` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `lt_article` LIMIT 1   [ RunTime:0.0156s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `lt_gust` WHERE ( g_rtime != 0 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `lt_album` WHERE `al_view` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `lt_picture` WHERE `p_view` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `lt_link` WHERE ( l_view != 0 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `lt_system` SET `hit`=hit+1 WHERE ( id=1 ) [ RunTime:0.0156s ]
+SQL: SELECT * FROM `lt_album` WHERE `al_view` = 1 LIMIT 9   [ RunTime:0.0000s ]
+SQL: SELECT `a_keyword`,`a_id`,`a_time` FROM `lt_article` WHERE ( a_keyword != '' and a_view > 0 ) ORDER BY a_time desc  [ RunTime:0.0000s ]
+SQL: SELECT `a_id` FROM `lt_article` WHERE ( a_view != 0 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `lt_article` WHERE `a_id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `lt_article` WHERE `a_id` = 2 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `lt_article` WHERE `a_id` = 3 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `lt_link` WHERE `l_view` = 2 ORDER BY l_sort  [ RunTime:0.0000s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\wamp\www\blog\Application\Home\Controller\CommonController.class.php 第 84 行.
+SQL: SHOW COLUMNS FROM `lt_article_c` [ RunTime:0.0000s ]
+SQL: SELECT `ac_time` FROM `lt_article_c` WHERE ( ac_rtime>0 ) UNION ALL SELECT sc_time FROM lt_say_c WHERE sc_rtime != 0 UNION ALL SELECT alc_time FROM lt_album_c WHERE alc_rtime >0 order by ac_time desc limit 0,5 [ RunTime:0.0000s ]
+SQL: SELECT * FROM `lt_article_c` WHERE `ac_time` = 1486283901 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `lt_album_c` WHERE `alc_time` = 1486283901 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `lt_say_c` WHERE `sc_time` = 1486283901 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `lt_article_c` WHERE `ac_time` = 1486283651 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `lt_album_c` WHERE `alc_time` = 1486283651 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `lt_say_c` WHERE `sc_time` = 1486283651 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `lt_article_c` WHERE `ac_time` = 1486283315 LIMIT 1   [ RunTime:0.0156s ]
+SQL: SELECT * FROM `lt_album_c` WHERE `alc_time` = 1486283315 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `lt_say_c` WHERE `sc_time` = 1486283315 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined offset: 3 D:\wamp\www\blog\Application\Home\Controller\CommonController.class.php 第 87 行.
+SQL: SELECT * FROM `lt_article_c` WHERE `ac_time` = null LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined offset: 3 D:\wamp\www\blog\Application\Home\Controller\CommonController.class.php 第 88 行.
+SQL: SELECT * FROM `lt_album_c` WHERE `alc_time` = null LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined offset: 3 D:\wamp\www\blog\Application\Home\Controller\CommonController.class.php 第 89 行.
+SQL: SELECT * FROM `lt_say_c` WHERE `sc_time` = null LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined offset: 4 D:\wamp\www\blog\Application\Home\Controller\CommonController.class.php 第 87 行.
+SQL: SELECT * FROM `lt_article_c` WHERE `ac_time` = null LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined offset: 4 D:\wamp\www\blog\Application\Home\Controller\CommonController.class.php 第 88 行.
+SQL: SELECT * FROM `lt_album_c` WHERE `alc_time` = null LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined offset: 4 D:\wamp\www\blog\Application\Home\Controller\CommonController.class.php 第 89 行.
+SQL: SELECT * FROM `lt_say_c` WHERE `sc_time` = null LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `lt_gust` WHERE ( g_rtime>0 ) ORDER BY g_time desc LIMIT 5   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `lt_article` WHERE ( a_view != 0 ) ORDER BY a_hit desc LIMIT 7   [ RunTime:0.0000s ]
+SQL: SELECT `a_time` FROM `lt_article` ORDER BY a_time desc LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `s_time` FROM `lt_say` ORDER BY s_time desc LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `al_time` FROM `lt_album` ORDER BY al_time desc LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `lt_article` [ RunTime:0.0156s ]
+SQL: SELECT a.*,ac.* FROM lt_article a left join lt_tag ON lt_tag.t_id = a.pid left join (select ac_pid,ac_id,ac_rtime,count(*) as ac_num FROM lt_article_c where ac_rtime != 0  GROUP BY ac_pid ) ac ON ac_pid = a.a_id  WHERE ( a_view > 0 ) ORDER BY a_time desc LIMIT 0,8   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `lt_ppt` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `lt_ppt` WHERE `pp_view` = 1 ORDER BY pp_time desc LIMIT 3   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: about D:\wamp\www\blog\Runtime\Cache\Home\ad9a30830f14c1d4afdd11cb2839d351.php 第 52 行.
+NOTIC: [8] Undefined variable: class D:\wamp\www\blog\Runtime\Cache\Home\ad9a30830f14c1d4afdd11cb2839d351.php 第 53 行.
+NOTIC: [8] Undefined variable: feel D:\wamp\www\blog\Runtime\Cache\Home\ad9a30830f14c1d4afdd11cb2839d351.php 第 60 行.
+NOTIC: [8] Undefined variable: album D:\wamp\www\blog\Runtime\Cache\Home\ad9a30830f14c1d4afdd11cb2839d351.php 第 61 行.
+NOTIC: [8] Undefined variable: friends D:\wamp\www\blog\Runtime\Cache\Home\ad9a30830f14c1d4afdd11cb2839d351.php 第 62 行.
+NOTIC: [8] Undefined variable: gust D:\wamp\www\blog\Runtime\Cache\Home\ad9a30830f14c1d4afdd11cb2839d351.php 第 63 行.
+NOTIC: [8] Undefined variable: download D:\wamp\www\blog\Runtime\Cache\Home\ad9a30830f14c1d4afdd11cb2839d351.php 第 64 行.
+NOTIC: [8] Undefined variable: tmp D:\wamp\www\blog\Application\Common\Common\function.php 第 307 行.
+NOTIC: [8] Undefined variable: tmp D:\wamp\www\blog\Application\Common\Common\function.php 第 307 行.
+NOTIC: [8] Undefined variable: tmp D:\wamp\www\blog\Application\Common\Common\function.php 第 307 行.
+NOTIC: [8] Undefined variable: tmp D:\wamp\www\blog\Application\Common\Common\function.php 第 307 行.
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\wamp\www\blog\Runtime\Cache\Home\ad9a30830f14c1d4afdd11cb2839d351.php 第 188 行.
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\wamp\www\blog\Runtime\Cache\Home\ad9a30830f14c1d4afdd11cb2839d351.php 第 178 行.
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\wamp\www\blog\Runtime\Cache\Home\ad9a30830f14c1d4afdd11cb2839d351.php 第 198 行.
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\wamp\www\blog\Runtime\Cache\Home\ad9a30830f14c1d4afdd11cb2839d351.php 第 212 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.062400s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.062400s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-07-24T15:45:36+08:00 ] 127.0.0.1 /blog/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002500s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002500s ]
+SQL: SHOW COLUMNS FROM `lt_article` [ RunTime:0.0025s ]
+SQL: SHOW COLUMNS FROM `lt_link` [ RunTime:0.0025s ]
+SQL: SHOW COLUMNS FROM `lt_system` [ RunTime:0.0025s ]
+SQL: SHOW COLUMNS FROM `lt_album` [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `lt_gust` [ RunTime:0.0025s ]
+SQL: SHOW COLUMNS FROM `lt_say` [ RunTime:0.0025s ]
+SQL: SHOW COLUMNS FROM `lt_tag` [ RunTime:0.0025s ]
+SQL: SHOW COLUMNS FROM `lt_version` [ RunTime:0.0025s ]
+SQL: SHOW COLUMNS FROM `lt_picture` [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `lt_album_c` [ RunTime:0.0025s ]
+SQL: SHOW COLUMNS FROM `lt_article_c` [ RunTime:0.0025s ]
+SQL: SHOW COLUMNS FROM `lt_say_c` [ RunTime:0.0025s ]
+SQL: SELECT * FROM `lt_tag` WHERE `t_view` = 1  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `lt_system` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `v_version` FROM `lt_version` ORDER BY v_id desc LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [2] unlink(./Runtime/Temp/2af72f100c356273d46284f6fd1dfc08.php): No such file or directory D:\wamp\www\blog\ThinkPHP\Library\Think\Cache\Driver\File.class.php 第 157 行.
+SQL: SELECT `a_id` FROM `lt_article` WHERE `a_view` = 2  [ RunTime:0.0000s ]
+NOTIC: [2] array_rand(): Second argument has to be between 1 and the number of elements in the array D:\wamp\www\blog\Application\Home\Controller\CommonController.class.php 第 38 行.
+NOTIC: [8] Undefined index:  D:\wamp\www\blog\Application\Home\Controller\CommonController.class.php 第 40 行.
+SQL: SELECT * FROM `lt_article` WHERE `a_id` = null LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index:  D:\wamp\www\blog\Application\Home\Controller\CommonController.class.php 第 40 行.
+SQL: SELECT * FROM `lt_article` WHERE `a_id` = null LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index:  D:\wamp\www\blog\Application\Home\Controller\CommonController.class.php 第 40 行.
+SQL: SELECT * FROM `lt_article` WHERE `a_id` = null LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index:  D:\wamp\www\blog\Application\Home\Controller\CommonController.class.php 第 40 行.
+SQL: SELECT * FROM `lt_article` WHERE `a_id` = null LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index:  D:\wamp\www\blog\Application\Home\Controller\CommonController.class.php 第 40 行.
+SQL: SELECT * FROM `lt_article` WHERE `a_id` = null LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `lt_say_c` WHERE ( sc_rtime != 0 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `lt_article_c` WHERE ( ac_rtime != 0 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `lt_album_c` WHERE ( alc_rtime != 0 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `lt_say` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `lt_article` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `lt_gust` WHERE ( g_rtime != 0 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `lt_album` WHERE `al_view` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `lt_picture` WHERE `p_view` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `lt_link` WHERE ( l_view != 0 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `lt_system` SET `hit`=hit+1 WHERE ( id=1 ) [ RunTime:0.0375s ]
+SQL: SELECT * FROM `lt_album` WHERE `al_view` = 1 LIMIT 9   [ RunTime:0.0000s ]
+SQL: SELECT `a_keyword`,`a_id`,`a_time` FROM `lt_article` WHERE ( a_keyword != '' and a_view > 0 ) ORDER BY a_time desc  [ RunTime:0.0000s ]
+SQL: SELECT `a_id` FROM `lt_article` WHERE ( a_view != 0 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `lt_article` WHERE `a_id` = 1 LIMIT 1   [ RunTime:0.0025s ]
+SQL: SELECT * FROM `lt_article` WHERE `a_id` = 2 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `lt_article` WHERE `a_id` = 4 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `lt_link` WHERE `l_view` = 2 ORDER BY l_sort  [ RunTime:0.0000s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\wamp\www\blog\Application\Home\Controller\CommonController.class.php 第 84 行.
+SQL: SHOW COLUMNS FROM `lt_article_c` [ RunTime:0.0025s ]
+SQL: SELECT `ac_time` FROM `lt_article_c` WHERE ( ac_rtime>0 ) UNION ALL SELECT sc_time FROM lt_say_c WHERE sc_rtime != 0 UNION ALL SELECT alc_time FROM lt_album_c WHERE alc_rtime >0 order by ac_time desc limit 0,5 [ RunTime:0.0000s ]
+SQL: SELECT * FROM `lt_article_c` WHERE `ac_time` = 1486283901 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `lt_album_c` WHERE `alc_time` = 1486283901 LIMIT 1   [ RunTime:0.0025s ]
+SQL: SELECT * FROM `lt_say_c` WHERE `sc_time` = 1486283901 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `lt_article_c` WHERE `ac_time` = 1486283651 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `lt_album_c` WHERE `alc_time` = 1486283651 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `lt_say_c` WHERE `sc_time` = 1486283651 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `lt_article_c` WHERE `ac_time` = 1486283315 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `lt_album_c` WHERE `alc_time` = 1486283315 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `lt_say_c` WHERE `sc_time` = 1486283315 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined offset: 3 D:\wamp\www\blog\Application\Home\Controller\CommonController.class.php 第 87 行.
+SQL: SELECT * FROM `lt_article_c` WHERE `ac_time` = null LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined offset: 3 D:\wamp\www\blog\Application\Home\Controller\CommonController.class.php 第 88 行.
+SQL: SELECT * FROM `lt_album_c` WHERE `alc_time` = null LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined offset: 3 D:\wamp\www\blog\Application\Home\Controller\CommonController.class.php 第 89 行.
+SQL: SELECT * FROM `lt_say_c` WHERE `sc_time` = null LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined offset: 4 D:\wamp\www\blog\Application\Home\Controller\CommonController.class.php 第 87 行.
+SQL: SELECT * FROM `lt_article_c` WHERE `ac_time` = null LIMIT 1   [ RunTime:0.0025s ]
+NOTIC: [8] Undefined offset: 4 D:\wamp\www\blog\Application\Home\Controller\CommonController.class.php 第 88 行.
+SQL: SELECT * FROM `lt_album_c` WHERE `alc_time` = null LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined offset: 4 D:\wamp\www\blog\Application\Home\Controller\CommonController.class.php 第 89 行.
+SQL: SELECT * FROM `lt_say_c` WHERE `sc_time` = null LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `lt_gust` WHERE ( g_rtime>0 ) ORDER BY g_time desc LIMIT 5   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `lt_article` WHERE ( a_view != 0 ) ORDER BY a_hit desc LIMIT 7   [ RunTime:0.0000s ]
+SQL: SELECT `a_time` FROM `lt_article` ORDER BY a_time desc LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `s_time` FROM `lt_say` ORDER BY s_time desc LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `al_time` FROM `lt_album` ORDER BY al_time desc LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `lt_article` [ RunTime:0.0025s ]
+SQL: SELECT a.*,ac.* FROM lt_article a left join lt_tag ON lt_tag.t_id = a.pid left join (select ac_pid,ac_id,ac_rtime,count(*) as ac_num FROM lt_article_c where ac_rtime != 0  GROUP BY ac_pid ) ac ON ac_pid = a.a_id  WHERE ( a_view > 0 ) ORDER BY a_time desc LIMIT 0,8   [ RunTime:0.0025s ]
+SQL: SHOW COLUMNS FROM `lt_ppt` [ RunTime:0.0025s ]
+SQL: SELECT * FROM `lt_ppt` WHERE `pp_view` = 1 ORDER BY pp_time desc LIMIT 3   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: about D:\wamp\www\blog\Runtime\Cache\Home\ad9a30830f14c1d4afdd11cb2839d351.php 第 52 行.
+NOTIC: [8] Undefined variable: class D:\wamp\www\blog\Runtime\Cache\Home\ad9a30830f14c1d4afdd11cb2839d351.php 第 53 行.
+NOTIC: [8] Undefined variable: feel D:\wamp\www\blog\Runtime\Cache\Home\ad9a30830f14c1d4afdd11cb2839d351.php 第 60 行.
+NOTIC: [8] Undefined variable: album D:\wamp\www\blog\Runtime\Cache\Home\ad9a30830f14c1d4afdd11cb2839d351.php 第 61 行.
+NOTIC: [8] Undefined variable: friends D:\wamp\www\blog\Runtime\Cache\Home\ad9a30830f14c1d4afdd11cb2839d351.php 第 62 行.
+NOTIC: [8] Undefined variable: gust D:\wamp\www\blog\Runtime\Cache\Home\ad9a30830f14c1d4afdd11cb2839d351.php 第 63 行.
+NOTIC: [8] Undefined variable: download D:\wamp\www\blog\Runtime\Cache\Home\ad9a30830f14c1d4afdd11cb2839d351.php 第 64 行.
+NOTIC: [8] Undefined variable: tmp D:\wamp\www\blog\Application\Common\Common\function.php 第 307 行.
+NOTIC: [8] Undefined variable: tmp D:\wamp\www\blog\Application\Common\Common\function.php 第 307 行.
+NOTIC: [8] Undefined variable: tmp D:\wamp\www\blog\Application\Common\Common\function.php 第 307 行.
+NOTIC: [8] Undefined variable: tmp D:\wamp\www\blog\Application\Common\Common\function.php 第 307 行.
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\wamp\www\blog\Runtime\Cache\Home\ad9a30830f14c1d4afdd11cb2839d351.php 第 188 行.
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\wamp\www\blog\Runtime\Cache\Home\ad9a30830f14c1d4afdd11cb2839d351.php 第 178 行.
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\wamp\www\blog\Runtime\Cache\Home\ad9a30830f14c1d4afdd11cb2839d351.php 第 198 行.
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\wamp\www\blog\Runtime\Cache\Home\ad9a30830f14c1d4afdd11cb2839d351.php 第 212 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.060001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.060001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
